@@ -1,0 +1,75 @@
+/* styles.css */
+
+body {
+  font-family: 'Times New Roman', serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+
+.wrapper {
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #8b4513; 
+  text-align: center;
+}
+
+#number {
+  width: 100%;
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #8b4513; 
+  border-radius: 8px;
+  box-sizing: border-box;
+  background-color: #fff8dc; 
+  font-size: 18px;
+  color: #8b4513; 
+  transition: border-color 0.3s ease;
+}
+
+#convert-btn {
+  width: 100%; 
+  padding: 15px;
+  margin-left: 20px; 
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: bold;
+  background-color: #8b4513; 
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+
+#convert-btn:hover {
+  background-color: #a0522d; 
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  color: #8b4513; 
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper {
+    border-radius: 0;
+  }
+  
+  #convert-btn {
+    margin-left: 0;
+  }
+}
